@@ -4,23 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shirt Express</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <div class="search-container">
-  <h1>Buy a Shirt!</h1>
 
-  <input type="text" id="shirtVariety" placeholder="Ex: White Shirt">
-  <button id="searchBtn">Search</button>
-  <div id="display" class="result-area"></div>
+    <header>
+        <h1>Shirt Express</h1>
+        <nav>
+            <ul>  
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div id="shirtModal" class="modal" style="display:none;">
-  <div class="modal-content">
-    <span id="closeButton">&times;</span>
-    <h2></h2>
-    <div id="shirtResults"></div>
-  </div>
-</div>
-</div>
-<script src="cc_7.js"></script>
+    <main>
+        <section class="hero">
+            <h2 id="cta-headline">Get your shirts!</h2>
+            <p>At Shirt Express, we combine premium materials with modern designs to keep you looking sharp and feeling comfortable.</p>
+            <div class="cta-update-area">
+                <input type="text" id="newHeadline" placeholder="Enter new headline...">
+                <button id="updateBtn">Update Headline</button>
+            </div>
+        </section>
+
+        <section class="services-container">
+            <div class="service">
+                <h3>Custom Design</h3>
+                <p>Create your own unique look with our online design tool.</p>
+            </div>
+            <div class="service">
+                <h3>Bulk Ordering</h3>
+                <p>Perfect for corporate events, teams, and reunions.</p>
+            </div>
+            <div class="service">
+                <h3>Fast Delivery</h3>
+                <p>Express shipping options to get your gear when you need it.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us: support@shirtexpress.com</p>
+    </footer>
+
+    <script src="cc_7.js"></script>
 </body>
 </html>
