@@ -73,7 +73,7 @@ button:hover {
     background-color: #2980b9;
 }
 
-/* Service Blocks (Flexbox) */
+/* Service */
 .services-container {
     display: flex;
     justify-content: space-around;
